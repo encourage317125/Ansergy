@@ -1,0 +1,32 @@
+.bookmarks-list-widget ul.jstree-container-ul {
+    width:100% !important;
+
+}
+
+.jstree-wholerow-ul {
+    /* position: relative; */
+    position: static !important;
+    display: inherit !important;
+
+}
+li.jstree-leaf i {
+    background-position: -103px -71px !important;
+}
+/*i.jstree-ocl {
+    background: none !important;
+}*/
+a.jstree-hovered {
+    background: none !important;
+    z-index:0 !important;
+}
+
+.jstree-default .jstree-clicked {
+    background: none !important;
+}
+.jstree-default .jstree-hovered {
+    box-shadow: none;
+}
+
+.jstree-default .jstree-leaf > .jstree-ocl {
+    background: none !important;
+}
